@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.dark-mode {
+  background-color: #0C0F24;
+  color: #F6FCFF;
+}
+
+.dark-mode nav ul li a {
+  color: #919191;
+}
+
+.dark-mode nav ul li a:active {
+  color: #D3D3D3;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  height: 10%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#logo {
+  position: absolute;
+  left: 0;
+  margin: 1em 60px;
+  height: 2em;
+  width: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  float: right;
+  margin: 1em 60px;
+  position: absolute;
+  right: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.5em 1em;
+}
+
+nav ul li a {
+  height: 1em;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #26B5F2;
+}
+
+nav ul li a:active {
+  font-weight: 700;
+}
+
+/* Main section */
+.section {
+  height: 90vh;
+  margin-top: 10vh;
+}
+
+.section h1 {
+  margin: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer #switch-mode {
+  position: absolute;
+  left: 0;
+}
+
+footer #contact-me {
+  position: absolute;
+  right: 0;
+}
+/*# sourceMappingURL=stylesheet.css.map */
